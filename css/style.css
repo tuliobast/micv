@@ -359,6 +359,17 @@ html{
     color: rgba(215, 231, 238, 0.9);
 }
 
+.contacto .contenido-seccion .fila .col a{
+    color: rgba(215, 231, 238, 0.9);
+    text-decoration: none;
+}
+
+.contacto .contenido-seccion .fila .col a:hover{
+    color: rgba(215, 231, 238, 0.5);
+    background-color: rgba(215, 231, 238, 0.5);
+    box-shadow: 0 0 20px rgba(215, 231, 238, 0.9);
+}
+
 /* SECCION RESPONSIVE */
 @media screen and (max-width:600px){
     .habilidades .contenido-seccion .fila{
